@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use G-Frames in your research, please cite it as below."
+title: "G-Frames: overlap-driven video frame selection for photogrammetry"
+version: 1.1.0
+date-released: 2026-10-26
+license: MIT
+repository-code: "https://github.com/aymenaiblu/G-Frames"
+url: "https://www.aymenaiblu.com"
+abstract: >-
+  G-Frames is a native macOS application that converts video of any length into a
+  photogrammetry-ready image set. It measures camera motion (pyramidal Lucas-Kanade
+  optical flow with forward-backward checking) and image sharpness for every analysed
+  frame, then selects the smallest set of sharp frames that keeps a target overlap
+  between consecutive views. It masks people (Apple Vision) and burned-in overlays,
+  reprojects 360-degree video into perspective views, and writes a COLMAP-ready folder
+  with full provenance. Developed for remote heritage documentation of the Old Town of
+  Ghadames (Libya).
+keywords:
+  - photogrammetry
+  - structure from motion
+  - keyframe selection
+  - video
+  - cultural heritage
+  - COLMAP
+  - Ghadames
+  - macOS
+authors:
+  - family-names: Aiblu
+    given-names: Aymen
+    affiliation: "Carleton University, School of Architecture and Urbanism"
+    email: aymenaiblu@gmail.com
+    website: "https://www.aymenaiblu.com"
