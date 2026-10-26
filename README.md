@@ -2,6 +2,8 @@
 
 # G-Frames
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23674120.svg)](https://doi.org/10.5281/zenodo.23674120)
+
 **Overlap-driven video frame selection for photogrammetry.** Developed by **Aymen Aiblu**.
 
 G-Frames is a native macOS app (SwiftUI, Apple Silicon) that turns a video of any length or size into a photogrammetry-ready image set. It analyses the whole video first and works out how many frames the reconstruction needs. It then extracts only those: the sharpest candidates, at a consistent overlap, into a COLMAP-ready folder. People and burned-in logos are masked, never painted over.
@@ -119,7 +121,7 @@ validation/                   Python reference implementation and synthetic test
 
 If you use G-Frames in research, please cite it. GitHub's **Cite this repository** button (from `CITATION.cff`) gives APA and BibTeX.
 
-> Aiblu, A. (2026). *G-Frames: overlap-driven video frame selection for photogrammetry* (Version 1.1.0) [Computer software]. https://github.com/aymenaiblu/G-Frames
+> Aiblu, A. (2026). *G-Frames: overlap-driven video frame selection for photogrammetry* (Version 1.1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23674120
 
 ## Development
 

@@ -4,7 +4,12 @@ title: "G-Frames: overlap-driven video frame selection for photogrammetry"
 version: 1.1.0
 date-released: 2026-10-26
 license: MIT
+doi: 10.5281/zenodo.23674120
 repository-code: "https://github.com/aymenaiblu/G-Frames"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23674120
+    description: "Zenodo archive of release v1.1.0"
 url: "https://www.aymenaiblu.com"
 abstract: >-
   G-Frames is a native macOS application that converts video of any length into a
